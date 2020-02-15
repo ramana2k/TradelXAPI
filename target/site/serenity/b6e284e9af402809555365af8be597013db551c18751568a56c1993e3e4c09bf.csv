@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing different request on PetStore Application","Create a new Pet and verify the pet has created","SUCCESS","2020-02-15T19:31:52.866Z[Europe/London]","0.0","2.52"
+"Testing different request on PetStore Application","Update the newly created Pet and verify the pet name and status has updated","SUCCESS","2020-02-15T19:31:55.39Z[Europe/London]","0.0","3.56"
+"Testing different request on PetStore Application","Delete the newly created Pet and verify the pet has deleted","SUCCESS","2020-02-15T19:31:58.951Z[Europe/London]","0.0","2.1"

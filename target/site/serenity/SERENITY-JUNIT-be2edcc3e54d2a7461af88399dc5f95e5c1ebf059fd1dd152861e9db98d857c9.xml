@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing different request on PetStore Application" skipped="0" tests="4" time="11.5" timestamp="2020-02-15 07:31:49"><testcase name="Check if the petstore application can be accessed"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+com.tradelxapp.cucumber.steps.PetSteps.verifyStatusCode(PetSteps.java:29)
+✽.User sends the get request to the pet endpoint,they must get back valid 200 status code(src/test/resources/features/PetStore.feature:6)
+</system-err></testcase><testcase name="Create a new Pet and verify the pet has created"/><testcase name="Update the newly created Pet and verify the pet name and status has updated"/><testcase name="Delete the newly created Pet and verify the pet has deleted"/></testsuite>
