@@ -13,6 +13,9 @@
 		<serenity.version>2.0.82</serenity.version> <!-- https://bintray.com/serenity/maven/serenity-core/ -->
 		<serenity.maven.version>1.9.19</serenity.maven.version>
 		<serenity.cucumber.version>1.9.45</serenity.cucumber.version> <!-- https://bintray.com/serenity/maven/serenity-cucumber/ -->
+		  <sonar.projectKey>ramana2k_TradelXAPI</sonar.projectKey>
+  <sonar.organization>ramana2k</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<!-- Define the Bintray repos for convenience -->
@@ -84,6 +87,7 @@
 			<version>1.7.0</version>
 			<scope>test</scope>
 		</dependency>
+		
 	</dependencies>
 	<build>
 		<plugins>
